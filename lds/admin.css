@@ -1,0 +1,203 @@
+<!--
+
+A:link.menu1 {text-decoration: none; font: bold 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: red;padding-left:30px;}
+A:visited.menu1 {text-decoration: none; font: bold 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: red;padding-left:30px;}
+A:hover.menu1{ text-decoration: underline;  }
+
+A:link.del {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: red;}
+A:visited.del {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: red;}
+A:hover.del{ text-decoration: underline;  }
+
+A:link.nnn {text-decoration: none; font: bold 11px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #101768;}
+A:visited.nnn {text-decoration: none; font: bold 11px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #101768;}
+A:hover.nnn{ text-decoration: underline;  }
+
+A:link.exit {text-decoration: none; font: small-caps bold 13px  Helvetica, Geneva, Swiss, SunSans-Regular; color: black;}
+A:visited.exit {text-decoration: none; font: small-caps bold 13px  Helvetica, Geneva, Swiss, SunSans-Regular; color: black;}
+A:hover.exit{ text-decoration: underline;  }
+
+A:link.but0 {text-decoration: none; font:12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #1E4083;}
+A:visited.but0 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #1E4083;}
+A:hover.but0{ text-decoration: underline;  }
+
+A:link.but1 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #8E401E;}
+A:visited.but1 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #8E401E;}
+A:hover.but1{ text-decoration: underline;  }
+
+A:link.but2 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #263374;}
+A:visited.but2 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #263374;}
+A:hover.but2{ text-decoration: underline;  }
+
+A:link.but3 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #962B0A;}
+A:visited.but3 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #962B0A;}
+A:hover.but3{ text-decoration: underline;  }
+
+A:link.but4 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #1625C9;}
+A:visited.but4 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #1625C9;}
+A:hover.but4{ text-decoration: underline;  }
+
+A:link.but5 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #4751CD;}
+A:visited.but5 {text-decoration: none; font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #4751CD;}
+A:hover.but5{ text-decoration: underline;  }
+
+A:link.but5b {text-decoration: none; font:  600 small-caps 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #4751CD;}
+A:visited.but5b {text-decoration: none; font:  600 small-caps 12px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #4751CD;}
+A:hover.but5b{ text-decoration: underline;  }
+
+BODY{
+ background-image : url(../img/background.gif);
+ font: 0.7em Helvetica, Tahoma;
+ margin:0px;
+}
+#cont{padding-left:40px;FONT: 13px Helvetica, Geneva, Swiss, SunSans-Regular;color: #841b15;}
+TD.new { padding-top:5px; padding-bottom:5px; font: bold 13px  Helvetica, Geneva, Swiss, SunSans-Regular; color: #222F8D;}
+TD.add_url  {font: bold 11px  Helvetica, Geneva, Swiss, SunSans-Regular;color: #101768;;}
+TD.login{
+ font: bold 12px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#1E4083;
+}
+
+TD.but0{
+ font:  12px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#1E4083;
+}
+TD.but1{
+ font:  12px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#8E401E;
+}
+TD.but2{
+ font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#263374;
+}
+TD.but3{
+ font:  12px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#962B0A;
+}
+TD.but4{
+ font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#1625C9;
+}
+
+TD.but5{
+ font: 12px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#4751CD;
+}
+
+TD.name{
+ font: bold 14px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:black;
+ padding-top:1px;
+ padding-bottom:1px;
+ padding-left:3px;
+}
+
+TD.left_nnn{
+ font: bold 11px  Helvetica, Geneva, Swiss, SunSans-Regular; 
+ color: #101768; 
+ border-top: 1px solid #1625C9;
+ border-right: 1px solid #1625C9;
+ padding-left:3px;
+}
+
+.left_nnn{
+ font: bold 11px  Helvetica, Geneva, Swiss, SunSans-Regular; 
+ color: #101768; 
+ padding-left:3px;
+}
+
+.left_n{
+ font: 11px  Helvetica, Geneva, Swiss, SunSans-Regular; 
+ color: #101768; 
+ padding-left:3px;
+}
+
+TD.right_nnn{
+ border-top: 1px solid #1625C9;
+ padding-left:3px;
+}
+
+TD.text{
+ padding-left:3px;
+ padding-right:3px;
+ padding-top:5px;
+ font: 11px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#8E401E;
+}
+TD.inp{
+ padding-top:5px;
+ padding-bottom:5px;
+}
+
+#tab{
+ border: 1px solid #8E401E;
+ width:520px;
+ margin-left:30px;
+}
+#tabs{
+ border: 1px solid #8E401E;
+ width:120px;
+ margin-left:30px;
+}
+
+SELECT{
+ border: 1px solid #8E401E;
+ background:white;
+ font: 11px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#8E401E;
+}
+input{
+ border: 1px solid #8E401E;
+ background:white;
+ font: 11px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#8E401E;
+}
+input.sub{
+ border: 1px solid #101768;
+ background:#6593ED;
+ font: 11px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#8E401E;
+}
+
+
+#login{
+ text-align:center;
+}
+
+#error{
+ font: bold 14px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:red;
+ text-align:center;
+}
+
+#ok{
+ font: bold 14px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:green;
+ text-align:center;
+}
+
+#su{
+ font: bold 12px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#747475;
+ text-align:right;
+}
+
+#su font.user{
+ color:#101768;
+}
+
+#menu
+{
+ text-align:right;
+ padding-top:5px;
+}
+
+#heading
+{
+ text-align:left;
+ padding-left:20px;
+ padding-top:5px;
+ font: bold 14px  Helvetica, Geneva, Swiss, SunSans-Regular;
+ color:#071661;
+
+}
+--!>

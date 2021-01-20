@@ -1,0 +1,25 @@
+
+<!-- Start Template: all --><html>
+<head>
+<title>Добавление информации</title>
+<meta http-equiv="Содержимое-Тип" content="text/html; charset=windows-1251">
+<link href="admin.css" rel=stylesheet>
+</head>
+<body>
+<br>
+<br>
+<div id=heading>Добавление нового пункта меню</div> <form action="add_menu.php" method=post>
+ <div id=tab> 
+ <table width=100% cellpadding=0 cellspacing=0 bgcolor=#E0E5FF align=center border=0 >
+  <tr><td class=text valign=top align=right >Название :</td><td class=text><input type=text name=name value="" size=60 maxlength=255></td></tr>
+  <tr><td class=text valign=top align=right >Дата :</td><td class=text><input type=text name=date value="" size=60 maxlength=255></td></tr>  
+<tr><td class=text valign=top align=right>Выбор</td><td class=inp>
+<select name=children><option value=1>Да</option><option value=2>Нет</option></select></td></tr><tr><td class=text align=right valign=top><label><input type="checkbox" name="children" value="1" />Параметр</label></td><td></td><tr><td class=text valign=top align=right>Выбор еще:</td><td class=inp>
+<select name=align><option value=1>Слева</option><option value=2>Сверху</option></select></td></tr>  <tr height=50><td colspan=2 align=center valign=bottom class=inp><input class=sub type=submit value="Добавить"></td></tr>
+ </table>
+ </div>
+ </form>
+<br>
+<br>
+<div id=su>В системе работает <font class=user>lena.</div>
+</body></html><!-- End template: all -->
