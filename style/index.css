@@ -163,15 +163,14 @@
     }
     
     #signin_all_right0 input[type="text"] {
-        position: relative;
-        display: block;
         /* width: 280px; */
-        height: 30px;
+        height: 25px;
         border: 0;
         outline: 0;
         top: -2px;
         padding: 0 0 0 20px;
         font-weight: 700;
+        /* margin-right: 30%; */
     }
     
     #signin_all_right0 input[type="text"]:focus {
@@ -180,9 +179,15 @@
     
     #signin_all_right0 button[type="submit"] {
         align-self: flex-end;
+        margin-bottom: 15px;
+        margin-right: 30px;
+        border-radius: 7px;
+        border: none;
+        font-weight: 700;
+        padding: 5px 3px;
     }
     
-    #signin_login button[type="submit"]:hover {
+    #signin_all_right0 button[type="submit"]:hover {
         /* color: rgb(7, 41, 51);
         text-shadow: 0 0 10px rgb(12, 48, 59); */
         cursor: pointer;
@@ -192,7 +197,10 @@
         color: rgb(79, 85, 97);
         padding: 0 20px;
         font-weight: 700;
-        font-size: 12px;
+        font-size: 14px;
+        padding-right: 30%;
+        margin-bottom: 15px;
+        margin-top: 0;
         /* margin: 5px 0 0 0; */
     }
     /* #signin_login p>a {
@@ -215,5 +223,30 @@
     }
     
     .form_block_all_right0 {
-        padding: 25px 30px;
+        padding: 30px 30px 15px;
+        display: flex;
+        /* flex-direction: column; */
+    }
+    
+    .select_zero_all_right0,
+    .input_block_signin_all_right0 {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* justify-content: space-between; */
+    }
+    /* .select_signin_all_right0 {
+        margin-right: 30%;
+    } */
+    
+    .select_signin_all_right0 {
+        margin-bottom: 20px;
+    }
+    
+    .select_second_all_right0>.select_signin_all_right0 {
+        margin-top: 7px
+    }
+    
+    h1 {
+        text-align: center;
     }
